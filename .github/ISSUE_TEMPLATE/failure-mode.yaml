@@ -1,0 +1,23 @@
+name: Failure mode report
+description: Report a failure pattern (classification-level)
+title: "[Failure Mode] "
+labels: ["failure-mode"]
+body:
+  - type: dropdown
+    attributes:
+      label: Category
+      options:
+        - vacuum
+        - power
+        - cooling
+        - controls
+        - gas
+        - operator
+        - unknown
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Symptoms / observed pattern (no sensitive details)
+    validations:
+      required: true
