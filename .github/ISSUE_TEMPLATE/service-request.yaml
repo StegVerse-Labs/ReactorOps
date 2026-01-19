@@ -1,0 +1,21 @@
+name: Service request
+description: Capture a ReactorOps request (public-safe)
+title: "[Service] "
+labels: ["service"]
+body:
+  - type: dropdown
+    attributes:
+      label: Service type
+      options:
+        - Efficiency audit
+        - Maintenance contract
+        - Refurb evaluation
+        - Downtime analysis
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Notes (non-sensitive)
+    validations:
+      required: true
