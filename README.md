@@ -10,6 +10,8 @@ It exists to help synthetic crystal producers:
 
 ReactorOps is intentionally **vendor-agnostic** and **non-OEM-locked**.
 
+See [DiamondOps Liability Boundary](../DiamondOps-Core/LIABILITY_BOUNDARY.md).
+
 ---
 
 ## What ReactorOps Is
