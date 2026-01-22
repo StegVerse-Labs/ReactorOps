@@ -1,3 +1,5 @@
+[![DiamondOps-Core Canonicals](https://github.com/stegverse-labs/stegdb/actions/workflows/sync-diamondops-core-canonicals.yml/badge.svg)](https://github.com/stegverse-labs/stegdb/actions/workflows/sync-diamondops-core-canonicals.yml)
+
 ## Liability & Scope
 
 ReactorOps provides documentation and workflow artifacts only.
